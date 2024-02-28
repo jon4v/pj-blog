@@ -1,8 +1,13 @@
 import React from 'react';
 
-function Navbar() {
+const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <div className='navbar'>
+            <div className='container'>
+                <div className='logo'>logo</div>
+                <div className='links'>links</div>
+            </div>
+        </div>
     );
 }
 
